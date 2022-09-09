@@ -1,0 +1,15 @@
+#introducao {
+  color: gold;
+}
+
+.azul {
+  color: blue;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.grande {
+  font-size: 32px;
+}
