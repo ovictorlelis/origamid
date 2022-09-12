@@ -54,6 +54,21 @@ nav a {
   border-radius: 4px;
   padding: 10px 20px;
 }
+.principal {
+  position: relative;
+}
+
+.faixa::before {
+  content: "";
+  display: block;
+  border-bottom: 5px solid #ee2211;
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
 
 .descricao {
   display: flex;
