@@ -1,0 +1,44 @@
+div {
+  font-size: 200%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: darkblue;
+  display: inline-block;
+}
+
+p {
+  background: lightblue;
+}
+
+.px {
+  font-size: 24px;
+  padding: 16px 32px;
+}
+
+.rem {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.em {
+  font-size: 2em;
+  padding: 1rem 2rem;
+}
+
+body {
+  margin: 0;
+}
+
+section.unidade2 {
+  width: 200px;
+  background: tomato;
+}
+
+div.unidade2 {
+  width: calc(100vw - 100px);
+  height: 100vh;
+  background: lightblue;
+}
