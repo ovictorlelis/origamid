@@ -1,0 +1,165 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial;
+  background: #f7f7f7;
+}
+
+main {
+  margin: auto;
+  max-width: 1000px;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 2rem;
+}
+
+#logo {
+  display: block;
+  margin: 5rem auto;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+nav {
+  gap: 2rem;
+  display: flex;
+  margin-bottom: 5rem;
+  place-content: center;
+}
+
+nav a {
+  color: black;
+  background: #fff;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border: 2px solid white;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  border: 2px solid #ee2211;
+}
+
+.principal {
+  position: relative;
+}
+
+.faixa::before {
+  left: 0;
+  right: 0;
+  top: 1rem;
+  content: "";
+  width: 5rem;
+  margin: auto;
+  display: block;
+  position: absolute;
+  border-bottom: 5px solid #ee2211;
+}
+
+.descricao {
+  gap: 2rem;
+  display: flex;
+  padding: 1.5rem;
+  place-items: end;
+  background: white;
+  text-align: right;
+  position: relative;
+  place-content: center;
+  flex-direction: column;
+}
+
+.descricao::after {
+  top: 20px;
+  right: -25px;
+  content: "";
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  background: #ee2211;
+}
+
+.descricao h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.descricao a {
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  background: #ee2211;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.descricao a:hover {
+  background: #900;
+}
+
+.vantagens {
+  display: grid;
+  color: #c6c6c6;
+  font-size: 4rem;
+  text-align: right;
+  font-weight: bold;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.vantagens h2 {
+  padding: 3.5rem;
+  background-position: center center;
+  background-image: url(./img/onda.svg);
+}
+
+.detalhes {
+  gap: 4rem;
+  display: grid;
+  padding: 1.5rem;
+  background: white;
+  place-content: center;
+}
+
+article {
+  gap: 2rem;
+  display: flex;
+  padding: 1.5rem;
+  align-items: start;
+  border-left: 5px solid transparent;
+}
+
+article:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+article:hover {
+  border-color: #ee2211;
+}
+
+article h3 {
+  margin-bottom: 1rem;
+}
+
+footer p {
+  padding: 3rem 0;
+  margin-top: 5rem;
+  background: #fff;
+  text-align: center;
+}
